@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d4cc299-488d-4ca4-9bd1-f35f63854bd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/daylio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/daylio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/tf_lr.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/tf_lr.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +27,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../musical_scale" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.tf_lr">
-    <configuration name="neural_network" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.temp">
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="daylio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -34,11 +36,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/models/neural_network.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/models/temp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,19 +134,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.neural_network" />
       <item itemvalue="Python.tensor_flow" />
       <item itemvalue="Python.tf_lr" />
       <item itemvalue="Python.tf_nn" />
       <item itemvalue="Python.tf_nn_lr" />
+      <item itemvalue="Python.temp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.temp" />
         <item itemvalue="Python.tf_lr" />
         <item itemvalue="Python.tf_nn_lr" />
         <item itemvalue="Python.tf_nn" />
         <item itemvalue="Python.tensor_flow" />
-        <item itemvalue="Python.neural_network" />
       </list>
     </recent_temporary>
   </component>
@@ -170,22 +172,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="740" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588591005141" />
-    <state width="617" height="174" key="GridCell.Tab.0.bottom" timestamp="1589205007253">
+    <state width="618" height="171" key="GridCell.Tab.0.bottom" timestamp="1589215180551">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589205007253" />
-    <state width="617" height="174" key="GridCell.Tab.0.center" timestamp="1589205007253">
+    <state width="618" height="171" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589215180551" />
+    <state width="618" height="171" key="GridCell.Tab.0.center" timestamp="1589215180550">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589205007253" />
-    <state width="617" height="174" key="GridCell.Tab.0.left" timestamp="1589205007253">
+    <state width="618" height="171" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589215180550" />
+    <state width="618" height="171" key="GridCell.Tab.0.left" timestamp="1589215180550">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589205007253" />
-    <state width="617" height="174" key="GridCell.Tab.0.right" timestamp="1589205007253">
+    <state width="618" height="171" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589215180550" />
+    <state width="618" height="171" key="GridCell.Tab.0.right" timestamp="1589215180551">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589205007253" />
+    <state width="618" height="171" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589215180551" />
     <state width="618" height="201" key="GridCell.Tab.1.bottom" timestamp="1588689875646">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -202,14 +204,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="618" height="201" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1588689875646" />
-    <state x="284" y="0" key="SettingsEditor" timestamp="1588690065739">
+    <state x="284" y="0" key="SettingsEditor" timestamp="1589209029687">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588690065739" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1588684706555">
+    <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589209029687" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1589208825831">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588684706555" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1589208825831" />
     <state x="623" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1583514721068">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
