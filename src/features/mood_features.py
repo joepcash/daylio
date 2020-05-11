@@ -11,4 +11,4 @@ def mood_features(cut_off):
     mood_filtered.to_csv(r'../../data/interim/mood_features.csv', index=False)
 
 if __name__ == "__main__":
-    mood_features(30)
+    mood_features(10)
