@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d4cc299-488d-4ca4-9bd1-f35f63854bd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/daylio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/daylio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/easy-install.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-40.8.0-py3.7.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install-3.7-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install-3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/easy_install-3.7.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/easy_install.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,9 +134,9 @@
     <list>
       <item itemvalue="Python.neural_network" />
       <item itemvalue="Python.tensor_flow" />
+      <item itemvalue="Python.tf_lr" />
       <item itemvalue="Python.tf_nn" />
       <item itemvalue="Python.tf_nn_lr" />
-      <item itemvalue="Python.tf_lr" />
     </list>
     <recent_temporary>
       <list>
@@ -177,22 +170,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="740" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588591005141" />
-    <state width="1259" height="175" key="GridCell.Tab.0.bottom" timestamp="1588696232602">
+    <state width="617" height="174" key="GridCell.Tab.0.bottom" timestamp="1589205007253">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588696232602" />
-    <state width="1259" height="175" key="GridCell.Tab.0.center" timestamp="1588696232602">
+    <state width="617" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589205007253" />
+    <state width="617" height="174" key="GridCell.Tab.0.center" timestamp="1589205007253">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588696232602" />
-    <state width="1259" height="175" key="GridCell.Tab.0.left" timestamp="1588696232601">
+    <state width="617" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589205007253" />
+    <state width="617" height="174" key="GridCell.Tab.0.left" timestamp="1589205007253">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588696232601" />
-    <state width="1259" height="175" key="GridCell.Tab.0.right" timestamp="1588696232602">
+    <state width="617" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589205007253" />
+    <state width="617" height="174" key="GridCell.Tab.0.right" timestamp="1589205007253">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588696232602" />
+    <state width="617" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589205007253" />
     <state width="618" height="201" key="GridCell.Tab.1.bottom" timestamp="1588689875646">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
