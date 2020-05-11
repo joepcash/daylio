@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d4cc299-488d-4ca4-9bd1-f35f63854bd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/daylio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/daylio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/site-packages/easy-install.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/setuptools-40.8.0-py3.7.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install-3.7-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install-3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/easy_install-3.7.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/easy_install.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +21,52 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../musical_scale" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hifl_analysis" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.tf_lr">
+  <component name="RunManager" selected="Python.linear_regression">
+    <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="daylio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/models/linear_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mood_features" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="daylio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/features" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/features/mood_features.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="neural_network" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="daylio" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tensor_flow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="process_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="daylio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/models/tensor_flow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data/process_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tf_lr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="visualize" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="daylio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,53 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/visualizations" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/models/tf_lr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tf_nn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="daylio" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/models/tf_nn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tf_nn_lr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="daylio" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\joepc\PycharmProjects\daylio\src\models\tf_nn_lr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/visualizations/visualize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,19 +131,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.mood_features" />
       <item itemvalue="Python.neural_network" />
-      <item itemvalue="Python.tensor_flow" />
-      <item itemvalue="Python.tf_nn" />
-      <item itemvalue="Python.tf_nn_lr" />
-      <item itemvalue="Python.tf_lr" />
+      <item itemvalue="Python.process_data" />
+      <item itemvalue="Python.visualize" />
+      <item itemvalue="Python.linear_regression" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tf_lr" />
-        <item itemvalue="Python.tf_nn_lr" />
-        <item itemvalue="Python.tf_nn" />
-        <item itemvalue="Python.tensor_flow" />
+        <item itemvalue="Python.linear_regression" />
+        <item itemvalue="Python.mood_features" />
         <item itemvalue="Python.neural_network" />
+        <item itemvalue="Python.visualize" />
+        <item itemvalue="Python.process_data" />
       </list>
     </recent_temporary>
   </component>
@@ -169,54 +161,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588689169654">
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588174252027">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1588689169654" />
-    <state x="740" y="99" key="FileChooserDialogImpl" timestamp="1588591005141">
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1588174252027" />
+    <state x="740" y="99" key="FileChooserDialogImpl" timestamp="1583684979708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="740" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588591005141" />
-    <state width="1259" height="175" key="GridCell.Tab.0.bottom" timestamp="1588696232602">
+    <state x="740" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583684979708" />
+    <state width="617" height="174" key="GridCell.Tab.0.bottom" timestamp="1589203433133">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588696232602" />
-    <state width="1259" height="175" key="GridCell.Tab.0.center" timestamp="1588696232602">
+    <state width="617" height="174" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589203433133" />
+    <state width="617" height="174" key="GridCell.Tab.0.center" timestamp="1589203433133">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588696232602" />
-    <state width="1259" height="175" key="GridCell.Tab.0.left" timestamp="1588696232601">
+    <state width="617" height="174" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589203433133" />
+    <state width="617" height="174" key="GridCell.Tab.0.left" timestamp="1589203433133">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588696232601" />
-    <state width="1259" height="175" key="GridCell.Tab.0.right" timestamp="1588696232602">
+    <state width="617" height="174" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589203433133" />
+    <state width="617" height="174" key="GridCell.Tab.0.right" timestamp="1589203433133">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588696232602" />
-    <state width="618" height="201" key="GridCell.Tab.1.bottom" timestamp="1588689875646">
+    <state width="617" height="174" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589203433133" />
+    <state x="284" y="0" key="SettingsEditor" timestamp="1589201534445">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="201" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588689875646" />
-    <state width="618" height="201" key="GridCell.Tab.1.center" timestamp="1588689875646">
+    <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589201534445" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1589201428721">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="618" height="201" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1588689875646" />
-    <state width="618" height="201" key="GridCell.Tab.1.left" timestamp="1588689875646">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="618" height="201" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1588689875646" />
-    <state width="618" height="201" key="GridCell.Tab.1.right" timestamp="1588689875646">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="618" height="201" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1588689875646" />
-    <state x="284" y="0" key="SettingsEditor" timestamp="1588690065739">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588690065739" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1588684706555">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588684706555" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1589201428721" />
     <state x="623" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1583514721068">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
