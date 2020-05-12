@@ -48,3 +48,14 @@ activity_weights = pd.DataFrame({'Activity': activities, 'Weight': w},
                                 columns = ['Activity', 'Weight'])
 
 activity_weights.to_csv(r'../../data/processed/lr_weights.csv', index=False)
+
+check = 'ate out'
+weights = layer0.get_weights()
+weight = weights[0][activities.index(check)]
+bias = weights[1]
+print('weight: {} bias: {}'.format(weight, bias))
+y_learned = train_dataset[check].values * weight + bias
+plt.scatter(train_dataset[check].values, train_labels.values, label='Training Data')
+plt.plot(train_dataset[check].values, y_learned, color='orangered', label='Fit Line')
+plt.legend()
+plt.show()
