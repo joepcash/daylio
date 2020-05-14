@@ -14,10 +14,15 @@ df['rank'] = df.groupby(df['datetime'].dt.date)['datetime'].rank(ascending=True)
 df['datetime'] = np.where(df['rank'] == 1,
                          df['datetime'] -
                          (df['datetime'] -
-                          (pd.to_datetime(df['date']) + pd.Timedelta(hours=8)))/2
+                          (pd.to_datetime(df['datetime'].dt.date) + pd.Timedelta(hours=8)))/2
                          , df['datetime'] - (df['datetime'].diff(periods=-1))/2)
 df.drop(columns=['date','rank','activities','weekday'], axis=1, inplace=True)
 df.reset_index()
+for i in range(2, len(df.columns)):
+    df.iloc[:, i] = np.where(df.iloc[:, i] == True,
+                             df['datetime'].apply(str),
+                             df.iloc[:, i])
+    df.iloc[:, i] = df.iloc[:, i].replace(to_replace=False, method='bfill')
 print(df.info())
 
 df.to_csv(r'../../data/processed/time_since_activity_features.csv', index=False)
