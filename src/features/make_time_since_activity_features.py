@@ -23,6 +23,10 @@ for i in range(2, len(df.columns)):
                              df['datetime'].apply(str),
                              df.iloc[:, i])
     df.iloc[:, i] = df.iloc[:, i].replace(to_replace=False, method='bfill')
+    df.iloc[:, i] = df.iloc[:, i].replace(False, np.NaN)
+    df.iloc[:, i] = df['datetime'] - pd.to_datetime(df.iloc[:, i])
+    df.iloc[:, i] = df.iloc[:,i] / pd.Timedelta(hours=1)
+
 print(df.info())
 
 df.to_csv(r'../../data/processed/time_since_activity_features.csv', index=False)
