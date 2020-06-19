@@ -6,7 +6,7 @@ def clean_moods(mood_change_fix = False):
     import pandas as pd
     import datetime
 
-    mood_df = pd.read_csv('../../data/raw/Daylio_CSV_Export_200228.csv')
+    mood_df = pd.read_csv('../../data/raw/daylio_export_2020_06_18.csv')
 
     # Drop unneeded columns
     mood_df = mood_df.drop(["date", "note"] , axis=1)

@@ -2,7 +2,7 @@ import tensorflow as tf
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(r'../../data/interim/mood_features.csv')
+df = pd.read_csv(r'../../data/processed/time_since_activity_features.csv')
 activities = list(df.iloc[:, 1:].columns.values)
 dataset = df.copy()
 
@@ -13,7 +13,7 @@ train_labels = train_dataset.pop('mood')
 test_labels = test_dataset.pop('mood')
 
 # Define layer
-layer0 = tf.keras.layers.Dense(units=1, input_shape=[52])
+layer0 = tf.keras.layers.Dense(units=1, input_shape=[58])
 model = tf.keras.Sequential([layer0])
 
 # Compile model

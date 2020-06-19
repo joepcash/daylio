@@ -1,6 +1,6 @@
 def rolling_avg(no_of_days_to_roll=30):
     import pandas as pd
-    mood_df = pd.read_csv(r'../../data/interim/moods_clean.csv')
+    mood_df = pd.read_csv(r'../../data/interim/gut_scores.csv')
 
     # Create new data frame with daily average mood
     mood_df['AvgforDay'] = mood_df.groupby('date')['mood'].transform('mean')
@@ -27,7 +27,7 @@ def mood_by_weekday():
 def activity_occurrences():
     import pandas as pd
     import ast
-    mood_df = pd.read_csv(r'../../data/interim/moods_clean.csv')
+    mood_df = pd.read_csv(r'../../data/interim/gut_scores.csv')
 
     # Create list of activities and column for each one
     col_act = mood_df['activities'].tolist()

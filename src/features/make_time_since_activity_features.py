@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv(r'../../data/interim/activity_occurrences.csv')
+df = pd.read_csv(r'../../data/interim/gut_scores.csv')
 
 df = df.fillna(0)
 df.iloc[:,5:] = df.iloc[:,5:].astype(bool)
@@ -39,4 +39,5 @@ for i in range(2, len(df.columns)):
     df.iloc[:, i] = df.iloc[:,i] / pd.Timedelta(hours=1)
 
 df.drop('datetime', axis=1, inplace=True)
+df.dropna(axis=1, how = 'all', inplace=True)
 df.to_csv(r'../../data/processed/time_since_activity_features.csv', index=False)
